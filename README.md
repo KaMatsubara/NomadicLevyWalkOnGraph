@@ -17,7 +17,7 @@ maven version: 3.8.6
 |node|ノード数|Integer|
 |threshold|シミュレーションの初期しきい値|Double|
 |targetThreshold|シミュレーションを終了するしきい値|Double|
-|intarvalsOfThreshold｜｜しきい値のシミュレーションを行う間隔|Double|
+|intarvalsOfThresholdしきい値のシミュレーションを行う間隔|Double|
 |graphSeed|探索用ランダムシード|Long|
 |walkSeed|グラフ生成用ランダムシード|Long|
 |researchCoverRatio|カバー率の調査(true),到達率の調査(false)|Boolean|
