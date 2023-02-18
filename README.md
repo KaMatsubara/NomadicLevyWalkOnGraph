@@ -9,7 +9,7 @@ maven version: 3.8.6
 ## 実行方法
 `% java -jar levywalk.jar data.txt`または`% mvn exec:java -Dexec.args='data.txt'` で実行  
 `data.txt`にオプションを指定する  
-遭遇率のシミュレーション結果は`result/`に`‘指定ファイル名_エンティティ数_スレッショルド.csvの形で出力される
+遭遇率のシミュレーション結果は`result/`に`移動モデル_エンティティ数_スレッショルド.csv`の形で出力される
 
 ## オプション
 | オプション | 説明 | 型 |
