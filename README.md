@@ -11,3 +11,23 @@ maven version: 3.8.6
 `data.txt`にオプションを指定する
 
 ## オプション
+| オプション | 説明 | 型 |
+|:---|:---|:---|
+|trial|試行回数|Integer|
+|node|ノード数|Integer|
+|threshold|シミュレーションの初期しきい値|Double|
+|targetThreshold|シミュレーションを終了するしきい値|Double|
+|intarvalsOfThreshold｜｜しきい値のシミュレーションを行う間隔|Double|
+|graphSeed|探索用ランダムシード|Long|
+|walkSeed|グラフ生成用ランダムシード|Long|
+|researchCoverRatio|カバー率の調査(true),到達率の調査(false)|Boolean|
+|entityClass|エンティティの移動モデル|String|
+|step|シミュレーションの初期ステップ数|Integer|
+|entity|エンティティ数|Integer|
+|remake|グラフの再構成回数の上限|Integer|
+|file|出力ファイル名|String|
+|permissibleError|許容誤差|Double|
+|lambda|Levy Walkのパラメータ|Double|
+|alpha|Homesick Levy Walkの拠点変更率|Double|
+|gamma|Nomadic Levy Walkの拠点移動率|Double|
+|interval|カバー率を調査するstep数の間隔|Integer|
