@@ -1,5 +1,5 @@
 # NomadicLevyWalkOnGraph
-ユニットディスクグラフ上での複数のエンティティの相互探索のシミュレータ[LevywalkEntitiesOnGraph](https://github.com/nischis/LevyWalkEntitiesOnGraph)をもとに, Nomadic Levy Walk, Homesick Levy Walkのシミュレーションを行えるようにしたもの.
+ユニットディスクグラフ上での複数のエンティティの相互探索のシミュレータ[LevywalkEntitiesOnGraph](https://github.com/nischis/LevyWalkEntitiesOnGraph)をもとに, Nomadic Levy Walk, Homesick Levy Walkのエンティティ同士の遭遇率のシミュレーションを行えるようにしたもの.
 一度にまとめて複数回のシミュレートが可能.
 
 ## バージョン  
@@ -8,7 +8,8 @@ maven version: 3.8.6
 
 ## 実行方法
 `% java -jar levywalk.jar data.txt`または`% mvn exec:java -Dexec.args='data.txt'` で実行  
-`data.txt`にオプションを指定する
+`data.txt`にオプションを指定する  
+遭遇率のシミュレーション結果は`result/`に`‘指定ファイル名_エンティティ数_スレッショルド.csvの形で出力される
 
 ## オプション
 | オプション | 説明 | 型 |
@@ -25,12 +26,12 @@ maven version: 3.8.6
 |step|シミュレーションの初期ステップ数|Integer|
 |entity|エンティティ数|Integer|
 |remake|グラフの再構成回数の上限|Integer|
-|file|出力ファイル名|String|
 |permissibleError|許容誤差|Double|
 |lambda|Levy Walkのパラメータ|Double|
 |alpha|Homesick Levy Walkの拠点変更率|Double|
 |gamma|Nomadic Levy Walkの拠点移動率|Double|
 |interval|カバー率を調査するstep数の間隔|Integer|
 
-'entityClass'はRandomWalk, LevyWalk, HomesickWalk, NomadicWalkから選択  
-'step'は指定したステップ数を倍にして,1600を超えるまでシミュレート. 例えば100を指定した時, 100, 200, 400, 800, 1600でシミュレート
+`entityClass`はRandomWalk, LevyWalk, HomesickWalk, NomadicWalkから選択  
+`step`は指定したステップ数を倍にして,1600を超えるまでシミュレート. 例えば100を指定した時, 100, 200, 400, 800, 1600でシミュレート  
+
