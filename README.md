@@ -1,1 +1,2 @@
-# -
+# -LevyWalkEntitiesOnGraph2-auto
+ユニットディスクグラフ上での複数のエンティティの相互探索のシミュレータ
