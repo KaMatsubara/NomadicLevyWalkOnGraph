@@ -7,7 +7,7 @@ Java version: 19.0.1
 maven version: 3.8.6  
 
 ## 実行方法
-`% java -jar levywalk.jar data.txt`で実行  
+`% java -jar levywalk.jar data.txt`または`% mvn exec:java -Dexec.args='data.txt'` で実行  
 `data.txt`にオプションを指定する
 
 ## オプション
