@@ -31,3 +31,6 @@ maven version: 3.8.6
 |alpha|Homesick Levy Walkの拠点変更率|Double|
 |gamma|Nomadic Levy Walkの拠点移動率|Double|
 |interval|カバー率を調査するstep数の間隔|Integer|
+
+'entityClass'はRandomWalk, LevyWalk, HomesickWalk, NomadicWalkから選択  
+'step'は指定したステップ数を倍にして,1600を超えるまでシミュレート. 例えば100を指定した時, 100, 200, 400, 800, 1600でシミュレート
