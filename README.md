@@ -15,7 +15,7 @@ maven version: 3.8.6
 ## オプション
 | オプション | 説明 | 型 |
 |:---|:---|:---|
-|trial|試行回数|Integer|
+|trial|各条件の試行回数|Integer|
 |node|ノード数|Integer|
 |threshold|シミュレーションの初期しきい値|Double|
 |targetThreshold|シミュレーションを終了するしきい値|Double|
