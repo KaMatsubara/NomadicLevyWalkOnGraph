@@ -1,5 +1,5 @@
 # NomadicLevyWalkOnGraph
-ユニットディスクグラフ上での複数のエンティティの相互探索のシミュレータ[LevywalkEntitiesOnGraph](https://github.com/nischis/LevyWalkEntitiesOnGraph)をもとに, Nomadic Levy Walk, Homesick Levy Walkのエンティティ同士の遭遇率のシミュレーションを行えるようにしたもの.
+ユニットディスクグラフ上での複数のエンティティの相互探索のシミュレータ[LevywalkEntitiesOnGraph](https://github.com/nischis/LevyWalkEntitiesOnGraph)をもとに, Nomadic Levy Walk, Homesick Levy Walkのエンティティ同士の遭遇回数のシミュレーションを行えるようにしたもの.
 一度にまとめて複数回のシミュレートが可能.
 
 ## バージョン  
@@ -9,7 +9,7 @@ maven version: 3.8.6
 ## 実行方法
 `% java -jar levywalk.jar data.txt`または`% mvn exec:java -Dexec.args='data.txt'` で実行  
 `data.txt`にオプションを指定する  
-遭遇率のシミュレーション結果は`result/`に`移動モデル_エンティティ数_スレッショルド_ステップ数.csv`の形で出力される.  
+遭遇回数のシミュレーション結果は`result/`に`移動モデル_エンティティ数_スレッショルド_ステップ数.csv`の形で出力される.  
 一番左の列がノードID、それ以外の列がノード0, 1, 2……との遭遇回数を示す
 
 ## オプション
