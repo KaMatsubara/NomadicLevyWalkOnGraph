@@ -35,7 +35,7 @@ maven version: 3.8.6
 
 `entityClass`はRandomWalk, LevyWalk, HomesickWalk, NomadicWalkから選択  
 `step`は指定したステップ数を倍にして,1600を超えるまでシミュレート. 例えば100を指定した時, 100, 200, 400, 800, 1600でシミュレート  
-##実験結果
+## 実験結果
 `data`に卒業研究で使用した実験結果を入れている.
 
 
