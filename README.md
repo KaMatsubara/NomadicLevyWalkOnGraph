@@ -20,8 +20,8 @@ maven version: 3.8.6
 |threshold|シミュレーションの初期しきい値|Double|
 |targetThreshold|シミュレーションを終了するしきい値|Double|
 |intarvalsOfThreshold|しきい値のシミュレーションを行う間隔|Double|
-|graphSeed|探索用ランダムシード|Long|
-|walkSeed|グラフ生成用ランダムシード|Long|
+|graphSeed|グラフ生成用ランダムシード|Long|
+|walkSeed|探索用ランダムシード|Long|
 |researchCoverRatio|カバー率の調査(true),到達率の調査(false)|Boolean|
 |entityClass|エンティティの移動モデル|String|
 |step|シミュレーションの初期ステップ数|Integer|
