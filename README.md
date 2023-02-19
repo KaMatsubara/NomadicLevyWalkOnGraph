@@ -27,7 +27,7 @@ maven version: 3.8.6
 |step|シミュレーションの初期ステップ数|Integer|
 |entity|エンティティ数|Integer|
 |remake|グラフの再構成回数の上限|Integer|
-|permissibleError|許容誤差|Double|
+|permissibleError|許容誤差(弧度法)|Double|
 |lambda|Levy Walkのパラメータ|Double|
 |alpha|Homesick Levy Walkの拠点変更率|Double|
 |gamma|Nomadic Levy Walkの拠点移動率|Double|
@@ -35,6 +35,7 @@ maven version: 3.8.6
 
 `entityClass`はRandomWalk, LevyWalk, HomesickWalk, NomadicWalkから選択  
 `step`は指定したステップ数を倍にして,1600を超えるまでシミュレート. 例えば100を指定した時, 100, 200, 400, 800, 1600でシミュレート  
+`graphSeed`, `walkSeed`は0を指定するとランダムに生成される.  
 ## 実験結果
 `data`に卒業研究で使用した実験結果を入れている.
 
