@@ -9,7 +9,8 @@ maven version: 3.8.6
 ## 実行方法
 `% java -jar levywalk.jar data.txt`または`% mvn exec:java -Dexec.args='data.txt'` で実行  
 `data.txt`にオプションを指定する  
-遭遇率のシミュレーション結果は`result/`に`移動モデル_エンティティ数_スレッショルド.csv`の形で出力される
+遭遇率のシミュレーション結果は`result/`に`移動モデル_エンティティ数_スレッショルド.csv`の形で出力される.  
+一番左の列がノードID、それ以外の列がノード1, 2……との遭遇回数を示す
 
 ## オプション
 | オプション | 説明 | 型 |
@@ -34,4 +35,7 @@ maven version: 3.8.6
 
 `entityClass`はRandomWalk, LevyWalk, HomesickWalk, NomadicWalkから選択  
 `step`は指定したステップ数を倍にして,1600を超えるまでシミュレート. 例えば100を指定した時, 100, 200, 400, 800, 1600でシミュレート  
+##実験結果
+`data`に卒業研究で使用した実験結果を入れている.
+
 
