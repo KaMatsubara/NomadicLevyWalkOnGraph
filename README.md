@@ -1,5 +1,5 @@
 # NomadicLevyWalkOnGraph
-ユニットディスクグラフ上での複数のエンティティの相互探索のシミュレータ[LevywalkEntitiesOnGraph](https://github.com/nischis/LevyWalkEntitiesOnGraph)をもとに, Nomadic Levy Walk, Homesick Levy Walkのエンティティ同士の遭遇回数のシミュレーションを行えるようにしたもの.
+ユニットディスクグラフ上での複数のエンティティの相互探索のシミュレータ[LevywalkEntitiesOnGraph](https://github.com/nischis/LevyWalkEntitiesOnGraph)をもとに, Nomadic Levy Walk(NLW), Homesick Levy Walk(HLW)のエンティティ同士の遭遇回数のシミュレーションを行えるようにしたもの.
 一度にまとめて複数回のシミュレートが可能.
 
 ## バージョン  
@@ -29,8 +29,8 @@ maven version: 3.8.6
 |remake|グラフの再構成回数の上限|Integer|
 |permissibleError|許容誤差(弧度法)|Double|
 |lambda|Levy Walkのパラメータ|Double|
-|alpha|Homesick Levy Walkの拠点変更率|Double|
-|gamma|Nomadic Levy Walkの拠点移動率|Double|
+|alpha|HLW, NLWの拠点帰還率|Double|
+|gamma|NLWの拠点移動率|Double|
 |interval|カバー率を調査するstep数の間隔|Integer|
 
 `entityClass`はRandomWalk, LevyWalk, HomesickWalk, NomadicWalkから選択  
