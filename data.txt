@@ -1,0 +1,17 @@
+trial 100
+node 1000
+threshold 0.05
+targetThreshold 0.10
+intarvalsOfThreshold 0.01
+graphSeed 0
+walkSeed 0
+researchCoverRatio true
+entityClass LevyWalk
+step 100
+entity 10
+remake 100
+permissibleError 90.0
+lambda 1.2
+alpha 20
+gamma 20
+interval 10000
