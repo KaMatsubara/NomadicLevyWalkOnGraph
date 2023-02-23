@@ -7,7 +7,7 @@ Java version: 19.0.1
 maven version: 3.8.6  
 
 ## 実行方法
-`% java -jar levywalk.jar data.txt`または`% mvn exec:java -Dexec.args='data.txt'` で実行  
+`% java -jar levywalk-jar-with-dependencies.jar data.txt`または`% mvn exec:java -Dexec.args='data.txt'` で実行  
 `data.txt`にオプションを指定する  
 遭遇回数のシミュレーション結果は`result/`に`移動モデル_エンティティ数_スレッショルド_ステップ数.csv`の形で出力される.  
 一番左の列がノードID、それ以外の列がノード0, 1, 2……との遭遇回数を示す
