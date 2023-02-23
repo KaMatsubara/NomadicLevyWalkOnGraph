@@ -1,6 +1,6 @@
 # NomadicLevyWalkOnGraph
 ユニットディスクグラフ上での複数のエンティティの相互探索のシミュレータ[LevywalkEntitiesOnGraph](https://github.com/nischis/LevyWalkEntitiesOnGraph)をもとに, Nomadic Levy Walk(NLW), Homesick Levy Walk(HLW)のエンティティ同士の遭遇回数のシミュレーションを行えるようにしたもの.
-一度にまとめて複数回のシミュレートが可能.
+一度にまとめて複数回, 複数条件のシミュレートが可能.
 
 ## バージョン  
 Java version: 19.0.1  
