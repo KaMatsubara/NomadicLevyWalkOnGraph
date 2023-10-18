@@ -18,7 +18,7 @@ public class Main {
         options.setArguments(d); // 引数をセット
 
         
-        while(d.targetThreshold > d.threshold){
+        while(d.targetThreshold > d.threshold){　//卒論前で余裕がなかった. 後できれいにしたい
             while(d.step <= 1600){
                 options.setFilename(d);
                  for (Integer i = 0; i < d.trial; i++) {
